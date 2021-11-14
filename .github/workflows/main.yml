@@ -13,4 +13,4 @@ jobs:
       with:
         app-name: 'CMST385-mlambiase'
         slot-name: 'production'
-        publish-profile: %{{ secrets.AppServiceCMST385 }}
+        publish-profile: ${{ secrets.AppServiceCMST385 }}
